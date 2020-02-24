@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "Jesus",
+      "group": "A",
+      "value": 5
+    },
+    {
+      "id": "Andrea",
+      "group": "A",
+      "value": 5
+    },
+     {
+      "id": "Iciar",
+      "group": "B",
+      "value": 5
+    },
+    {
+      "id": "Soraya",
+      "group": "B",
+      "value": 5
+    }
+  ],
+  "links": [
+    {
+      "source": "Jesus",
+      "target": "Andrea",
+      "value": 1
+    },
+    {
+      "source": "Andrea",
+      "target": "Jesus",
+      "value": 1
+    },
+    {
+      "source": "Soraya",
+      "target": "Andrea",
+      "value": 1
+    },
+    {
+      "source": "Soraya",
+      "target": "Iciar",
+      "value": 1
+    },
+    {
+      "source": "Iciar",
+      "target": "Soraya",
+      "value": 1
+    },
+    {
+      "source": "Iciar",
+      "target": "Andrea",
+      "value": 1
+    }
+  ]
+
+}
